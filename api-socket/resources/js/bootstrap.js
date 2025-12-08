@@ -17,7 +17,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
  * allows your team to easily build robust real-time web applications.
  */
 
-import './echo';
+import './echo';//this is necessary to load echo.js
 
 // import Pusher from 'pusher-js';
 // window.Pusher = Pusher;

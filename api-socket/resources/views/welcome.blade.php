@@ -7,25 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    @vite(['resources/js/app.js'])
-    {{Auth::user()->id}}
+    <h1>Bienvenido a la investigación de sockets</h1>
+    <p>esta es la página de bienvenida para acceder al login coloca en navegador la ruta /login</p>
+    <p>yo se que pude poner la ruta directamente pero me dio pereza :)</p>
 </body>
-<script>
-    /*setTimeout(() => {
-        window.Echo.channel('channel')
-            .listen('SocketEvent', (e) => {
-                console.log(e);
-            });
-    }, 200);*/
-    const userId = {{ Auth::user()->id }};
-
-    setTimeout(() => {
-        window.Echo.private('channel-private.' + userId)
-            .listen('EventPrivate', (e) => {
-                console.log(e);
-            });
-    }, 1000);
-    //window.Echo.connector.pusher.connection.socket_id
-</script>
 </html>
 
