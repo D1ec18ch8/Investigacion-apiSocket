@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Bienvenido a la investigación de sockets</h1>
-    <p>esta es la página de bienvenida para acceder al login coloca en navegador la ruta /login</p>
+    <p>esta es la página de bienvenida para acceder al login coloca en el navegador la ruta /login</p>
     <p>yo se que pude poner la ruta directamente pero me dio pereza :)</p>
 </body>
 </html>
